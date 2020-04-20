@@ -21,8 +21,7 @@ console.log(tipAmount(40, 'fair'));
 
 // Part 2
 function totalAmount(billAmount, levelOfService) {
-    tipAmount(billAmount, levelOfService)
-    return tip + billAmount;
+    return tipAmount(billAmount, levelOfService) + billAmount;
 }
 
 console.log(totalAmount(100, 'good'));

@@ -19,21 +19,16 @@ function tipAmount(billAmount, levelOfService) {
 console.log(tipAmount(100, 'good'));
 console.log(tipAmount(40, 'fair'));
 
-//Part 2
+// Part 2
 function totalAmount(billAmount, levelOfService) {
-    if (levelOfService === "good") {
-        tipAmount(billAmount, levelOfService)
-        return tip + billAmount;
-    }
-    else if (levelOfService === "fair") {
-        tipAmount(billAmount, levelOfService)
-        return tip + billAmount;
-    }
-    else if (levelOfService === "bad") {
-        tipAmount(billAmount, levelOfService)
-        return tip + billAmount;
-    }
+    tipAmount(billAmount, levelOfService)
+    return tip + billAmount;
 }
 
 console.log(totalAmount(100, 'good'));
 console.log(totalAmount(40, 'fair'));
+
+// Part 3
+// function splitAmount(billAmount, levelOfService, numberOfPeople) {
+
+// }

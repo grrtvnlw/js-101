@@ -29,7 +29,7 @@ console.log(totalAmount(40, 'fair'));
 
 // Part 3
 function splitAmount(billAmount, levelOfService, numberOfPeople) {
-    return totalAmount(billAmount, levelOfService) / numberOfPeople
+    return totalAmount(billAmount, levelOfService) / numberOfPeople;
 }
 
 console.log(splitAmount(100, 'good', 5));
